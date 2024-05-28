@@ -2,11 +2,12 @@
 import React from 'react'
 import Header from './components/sections/Header'
 import Home from './components/sections/Home'
-import perfil from "/src/assets/perfil.png"
-import waving from "/src/assets/waving.png"
-import './App.css'
 import Techs from './components/sections/Techs'
+import About from './components/sections/About'
 import DarkButton from './components/Dark'
+import Projects from './components/sections/Projects'
+import Contact from './components/sections/Contact'
+import './App.css'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Home />
       <Techs />
       <DarkButton />
+      <About />
+      <Projects />
+      <Contact />
     </>
   )
 }
