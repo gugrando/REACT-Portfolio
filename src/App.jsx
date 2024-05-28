@@ -7,6 +7,7 @@ import About from './components/sections/About'
 import DarkButton from './components/Dark'
 import Projects from './components/sections/Projects'
 import Contact from './components/sections/Contact'
+import Footer from './components/sections/Footer'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }

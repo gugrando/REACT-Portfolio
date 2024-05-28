@@ -31,10 +31,10 @@ function Projects(){
                         <button className="w-3/6 h-12 bg-neutral-700 rounded-md mb-4 text-blue-200 text-sm font-medium transition-all duration-300 hover:transform hover:scale-105 hover:bg-blue-500 hover:text-neutral-800" >See Projects</button>
                     </article>
                 </section>
-                <p className="mt-4 text-neutral-400 text-lg text-center">
+                <p className="mt-4 text-neutral-400 text-md text-center">
                     You can see and follow my projects on linkedin and github
                 </p>
-                <div className="flex gap-4">
+                <div className="flex gap-4 mt-2">
                     <FiGithub className="w-6 h-6 mt-2 text-white hover:text-blue-500 cursor-pointer transition-all duration-300 hover:scale-110" />
                     <PiLinkedinLogoBold className="w-6 h-6 mt-2 text-white hover:text-blue-500 cursor-pointer transition-all duration-300 hover:scale-110" />
                 </div>

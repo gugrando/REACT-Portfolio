@@ -12,7 +12,7 @@ function About (props) {
                 <h1 className="text-neutral-800 text-center text-3xl font-bold lg:text-start">About Me</h1>
                 <p className="text-lg font-medium text-center lg:text-start sm:max-w-96 lg:max-w-lg mt-6">Hey, my name is Gustavo Grando, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.
                     <br /><br />
-                    My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript. And SQL & MongoDB as DBs.
+                    My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript. SQL & MongoDB as Data Base.
                 </p>
             </article>
         </Container>
