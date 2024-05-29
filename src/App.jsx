@@ -1,27 +1,26 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/sections/Header'
-import Home from './components/sections/Home'
-import Techs from './components/sections/Techs'
-import About from './components/sections/About'
-import DarkButton from './components/Dark'
-import Projects from './components/sections/Projects'
-import Contact from './components/sections/Contact'
 import Footer from './components/sections/Footer'
+import ContentContainer from './components/ContentContainer'
+import HomePage from './components/HomePage.jsx'
+import ProjectPage from './components/ProjectsPage.jsx'
 import './App.css'
 
 function App() {
   return (
-    <>
-      <Header />
-      <Home />
-      <Techs />
-      <DarkButton />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
+      <Router>
+        <Header />
+          <ContentContainer>
+            <Routes>
+              <Route exact path="/" element={<HomePage/>} />
+              <Route exact path="/home" element={<HomePage/>} />
+              <Route path="/project" element={<ProjectPage/>} />
+            </Routes>
+          </ContentContainer>
+        <Footer />
+      </Router>
   )
 }
 
