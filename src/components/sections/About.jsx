@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import Container from "../Container"
 import Astro from "/src/assets/Astro.png"
+import CV from "/src/assets/CV.pdf"
 function About (props) {
     return (
         <Container bg={'bg-gradient-to-b from-neutral-200 to-neutral-400'}>
@@ -16,7 +17,7 @@ function About (props) {
                 </p>
                 <div className="flex justify-center lg:justify-start">
                     
-                    <a href="/src/assets/DevCV.pdf" download={"DevCV.pdf"}>
+                    <a href={CV} download={"DevCV.pdf"}>
                         <button className="w-fit h-12 mt-8 px-4 bg-neutral-700 rounded-md mb-4 text-blue-200 text-sm font-medium transition-all duration-300 hover:transform hover:scale-105 hover:bg-blue-500 hover:text-neutral-800">Dowload my CV</button>
                     </a>
                 </div>
