@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import Container from "../Container"
 import Astro from "/src/assets/Astro.png"
-import CV from "/src/assets/CV.pdf"
+import CV from "/src/assets/DevCV.pdf"
 function About (props) {
     return (
         <Container bg={'bg-gradient-to-b from-neutral-200 to-neutral-400'}>
