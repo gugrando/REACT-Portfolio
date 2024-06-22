@@ -3,7 +3,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FiInstagram } from "react-icons/fi";
-
+import mars from "/src/assets/marsLand.png"
 
 function Contact() {
     return (
@@ -21,7 +21,7 @@ function Contact() {
                         </div>
                 </article>
                 <article className="flex h-1/2 lg:w-1/2 lg:mt-16 ">
-                    <img className="w-72 md:w-80 lg:w-full" src="src/assets/marsLand.png" alt="" />
+                    <img className="w-72 md:w-80 lg:w-full" src={mars} alt="" />
                 </article>
         </Container>
     )
