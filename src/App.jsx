@@ -5,7 +5,7 @@ import Header from './components/sections/Header'
 import Footer from './components/sections/Footer'
 import ContentContainer from './components/ContentContainer'
 import HomePage from './components/HomePage.jsx'
-import ProjectPage from './components/ProjectsPage.jsx'
+import ProjectPage from './components/Projects/ProjectsPage.jsx'
 import './App.css'
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
           <ContentContainer>
             <Routes>
               <Route exact path="/" element={<HomePage/>} />
-              <Route exact path="/home" element={<HomePage/>} />
               <Route path="/project" element={<ProjectPage/>} />
             </Routes>
           </ContentContainer>

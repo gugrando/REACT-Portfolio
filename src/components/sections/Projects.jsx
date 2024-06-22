@@ -8,8 +8,7 @@ function Projects(){
         <Container bg={'bg-gradient-to-b from-neutral-400 to-neutral-900'}>
             <article id="project" className="flex flex-col w-full items-center h-1/2 p-8 lg:mt-16">
                 <h1 className="text-neutral-50 text-center text-3xl font-bold lg:text-start">Projects</h1>
-
-                <section className="w-screen flex flex-wrap justify-center gap-4 p-2 mt-4">
+                <section className="w-screen flex flex-wrap justify-center gap-8 p-2 mt-4">
                     <article className="flex flex-col min-w-full items-center md:min-w-80 h-80 bg-neutral-900 rounded-md pt-2 transition-all duration-500 hover:transform hover:scale-105">
                         <div className="flex flex-col w-full h-full items-center">
                             <h2 className="text-neutral-400 text-2xl font-bold">Frontend</h2>
@@ -33,7 +32,7 @@ function Projects(){
                     </article>
                 </section>
                 <p className="mt-4 text-neutral-400 text-md text-center">
-                    You can see and follow my projects on linkedin and github
+                    You can see and follow my projects on Linkedin and Github
                 </p>
                 <div className="flex gap-4 mt-2">
                     <a href="https://github.com/gugrando" target="_blank" rel="noreferrer"><FiGithub className="w-6 h-6 mt-2 text-white hover:text-blue-500 cursor-pointer transition-all duration-300 hover:scale-110" /></a>

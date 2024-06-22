@@ -11,7 +11,7 @@ function HomePage() {
         <ContentContainer>
             <Home />
             <Techs/>
-            <DarkButton />
+            {/* <DarkButton /> */}
             <About/>
             <Projects />
             <Contact />
